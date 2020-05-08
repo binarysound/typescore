@@ -1,10 +1,11 @@
 {
   "name": "typescore",
   "description": "Utility toolbelt for TypeScript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "files": ["lib"],
   "main": "lib/index.js",
+  "repository": "github:binarysound/typescore",
   "scripts": {
     "build": "tsc",
     "main": "ts-node --project tsconfig.json src/main.ts",
