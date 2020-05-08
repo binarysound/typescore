@@ -1,0 +1,23 @@
+{
+  "name": "typescore",
+  "description": "Utility toolbelt for TypeScript",
+  "version": "0.0.4",
+  "license": "MIT",
+  "files": ["lib"],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "main": "ts-node --project tsconfig.json src/main.ts",
+    "lint": "eslint src/** tests/** --no-error-on-unmatched-pattern --ext .ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^6.8.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^25.5.0",
+    "typescript": "^3.8.3"
+  }
+}
